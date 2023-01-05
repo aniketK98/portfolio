@@ -1,5 +1,4 @@
 import React from "react";
-import WorkingPng from "../images/working.png";
 import MainScreen from "../images/mainScreen.png";
 import "./Home.css";
 
@@ -7,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       {/* <img src={WorkingPng} className="workingImage" /> */}
-      <img src={MainScreen} className="workingImage" />
+      <img src={MainScreen} className="workingImage" alt="MainScreenImg"/>
 
       <div className="homeAbout">
         <h1 className="about_name">Hi I'm Aniket</h1>

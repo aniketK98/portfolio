@@ -33,6 +33,7 @@ function Header() {
           className="linkGithub"
           href="https://github.com/aniketK98"
           target={"_blank"}
+          rel="noreferrer"
         >
           <GitHubIcon
             fontSize={"medium"}
@@ -43,6 +44,7 @@ function Header() {
             className="linkLinkedIn"
             href="https://www.linkedin.com/in/aniket2798/"
             target={"_blank"}
+            rel="noreferrer"
           >
             <LinkedInIcon fontSize={"medium"} className="icons" />
           </a>
@@ -51,6 +53,7 @@ function Header() {
           className="linkTwitter"
           href="https://twitter.com/aniketkulk98"
           target={"_blank"}
+          rel="noreferrer"
         >
           <TwitterIcon fontSize={"medium"} className="icons" />
         </a>

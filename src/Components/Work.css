@@ -84,6 +84,14 @@
   margin-top: 10px;
 }
 
+.links > a {
+  padding: 10px;
+}
+
+.links > a > svg.MuiSvgIcon-root:hover {
+  color: #ff6e31;
+}
+
 @media screen and (max-width: 600px) {
   .work {
     padding: 30px;
@@ -91,11 +99,10 @@
   .workTitle {
     font-size: 2.2rem;
   }
-  
-.project > img {
-  padding:20px;
-  height: 140px;
-  object-fit: contain;
-}
 
+  .project > img {
+    padding: 20px;
+    height: 140px;
+    object-fit: contain;
+  }
 }

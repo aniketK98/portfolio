@@ -8,7 +8,7 @@ function Experience() {
   return (
     <div className="experience" id="experience">
       <div className="experienceRight">
-        <img src={developer} />
+        <img src={developer} alt="coding"/>
 
         <h1>A short summary</h1>
         <h4>2+ years of Experience in TCS</h4>
@@ -17,7 +17,7 @@ function Experience() {
         <div className="experienceTCS">
           <div className="logoTitle">
             <div className="logo">
-              <img src={tcs} />
+              <img src={tcs}  alt="tcslogo"/>
             </div>
             <div>
               <h1 className="title">System Engineer</h1>

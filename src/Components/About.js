@@ -28,7 +28,7 @@ function About() {
           strong foundation in <span>frontend development </span>and am always
           looking for opportunities to expand my knowledge and grow as a
           developer. Whether it's working on a cutting-edge software application
-          or tinkering with a personal project, I am driven by the thrill of
+          or building a personal project, I am driven by the thrill of
           creation and the satisfaction of seeing my code come to life.
         </h6>
         <h6 className="aboutDescription">
@@ -41,69 +41,69 @@ function About() {
         </h6>
         <div className="aboutWorkedContainer">
           <div className="aboutWorked">
-            <img src={html} />
+            <img src={html} alt="workedWith"/>
             <p>HTML</p>
           </div>
           <div className="aboutWorked">
-            <img src={css} />
+            <img src={css} alt="workedWith"/>
             <p>CSS</p>
           </div>
           <div className="aboutWorked">
-            <img src={bootstrap} />
+            <img src={bootstrap} alt="workedWith"/>
             <p>Bootstrap</p>
           </div>
           <div className="aboutWorked">
-            <img src={js} />
+            <img src={js} alt="workedWith"/>
             <p>JS</p>
           </div>
           <div className="aboutWorked">
-            <img src={reactjs} />
+            <img src={reactjs} alt="workedWith"/>
             <p>ReactJS</p>
           </div>
           <div className="aboutWorked">
-            <img src={redux} />
+            <img src={redux} alt="workedWith"/>
             <p>Redux</p>
           </div>
           <div className="aboutWorked">
-            <img src={nodejs} />
+            <img src={nodejs} alt="workedWith"/>
             <p>NodeJS</p>
           </div>
           <div className="aboutWorked">
-            <img src={mongodb} />
+            <img src={mongodb} alt="workedWith"/>
             <p>MongoDB</p>
           </div>
           <div className="aboutWorked">
-            <img src={java} />
+            <img src={java} alt="workedWith"/>
             <p>Java</p>
           </div>
           <div className="aboutWorked">
-            <img src={mysql} />
+            <img src={mysql} alt="workedWith"/>
             <p>MySQL</p>
           </div>
           <div className="aboutWorked">
-            <img src={express} />
+            <img src={express} alt="workedWith"/>
             <p>ExpressJS</p>
           </div>
           <div className="aboutWorked">
-            <img src={php} />
+            <img src={php} alt="workedWith"/>
             <p>php</p>
           </div>
           <div className="aboutWorked">
-            <img src={python} />
+            <img src={python} alt="workedWith"/>
             <p>python</p>
           </div>
           <div className="aboutWorked">
-            <img src={kdb} />
+            <img src={kdb} alt="workedWith"/>
             <p>KDB/Q</p>
           </div>
           <div className="aboutWorked">
-            <img src={Android} />
+            <img src={Android} alt="workedWith"/>
             <p>Android</p>
           </div>
         </div>
       </div>
       <div className="aboutLeft">
-        <img src={climbing} className="aboutLeftClimbing" />
+        <img src={climbing} className="aboutLeftClimbing" alt="climbing guy"/>
       </div>
     </div>
   );
