@@ -1,0 +1,120 @@
+.experience {
+  background-color: #fffbac;
+  display: flex;
+  padding: 20px 70px;
+  height: 620px;
+}
+
+.experienceRight {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.experienceRight > img {
+  height: 250px;
+  object-fit: contain;
+}
+.experienceRight > h1 {
+  font-size: 5rem;
+}
+.experienceRight > h4 {
+  font-size: 1.3rem;
+  font-family: "monteserat";
+}
+.experienceLeft {
+  flex: 0.5;
+  font-family: "monteserat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoTitle {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 500px;
+  background: rgb(238, 229, 197);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 229, 197, 1) 1%,
+    rgba(255, 215, 95, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logoTitle > .logo > img {
+  height: 30px;
+}
+
+.experienceDescription {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.experienceDescription > ul {
+  list-style: disc;
+}
+
+.experienceTCS {
+  padding: 40px;
+}
+
+.teckStack {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.teckStack > svg.MuiSvgIcon-root {
+  margin-right: 5px;
+}
+
+.teckStack > p {
+  color: #ff6e31;
+}
+
+@media screen and (max-width: 600px) {
+  .experience {
+    flex-direction: column;
+    padding: 0px;
+    height: auto;
+    align-items: center;
+  }
+  .experienceRight > img {
+    height: 200px;
+    padding: 30px;
+    object-fit: contain;
+  }
+  .experienceRight > h1 {
+    font-size: 2.2rem;
+  }
+  .experienceRight > h4 {
+    font-size: 1rem;
+  }
+  .experienceTCS {
+    padding: 30px;
+  }
+  .logo {
+    width: 60px;
+    height: 50px;
+    padding: 5px;
+  }
+  .logoTitle > .logo > img {
+    height: 20px;
+  }
+  .experienceDescription {
+    margin-left: 0px;
+  }
+  .logoTitle>div>p{
+    font-size: 0.7rem;
+  }
+}

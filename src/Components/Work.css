@@ -1,0 +1,101 @@
+.work {
+  display: flex;
+  padding: 20px 70px;
+  flex-direction: column;
+}
+
+.github > a {
+  display: flex;
+  justify-content: flex-end;
+}
+.workTitle {
+  font-size: 4rem;
+}
+
+.workDescription {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-family: "monteserat";
+}
+
+.projects {
+  margin-top: 20px;
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.projects::-webkit-scrollbar {
+  display: block;
+  height: 5px;
+  background: white;
+}
+
+/* Track */
+.projects::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.projects::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.projects::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.project {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+  margin: 10px;
+}
+
+.project > img {
+  height: 220px;
+  object-fit: contain;
+}
+
+.project > h1 {
+  margin-top: 5px;
+  color: #ff6e31;
+}
+
+.project > p {
+  margin-top: 5px;
+  font-family: "monteserat";
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.teckStack {
+  font-weight: 700;
+  color: #ff6e31;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .work {
+    padding: 30px;
+  }
+  .workTitle {
+    font-size: 2.2rem;
+  }
+  
+.project > img {
+  padding:20px;
+  height: 140px;
+  object-fit: contain;
+}
+
+}

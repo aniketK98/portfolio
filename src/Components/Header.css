@@ -1,0 +1,105 @@
+.header {
+  font-family: "monteserat";
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 30px 0px; */
+  padding: 30px 80px;
+  font-size: large;
+  /* border-bottom: 1px solid lightgray; */
+  background: linear-gradient(90deg, #fff 0, #fff 30%, #fffbac 0, #fffbac);
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
+
+.headerRight {
+  display: flex;
+  /* padding: 0px 40px; */
+}
+
+.credit {
+  margin-right: 5px;
+  transition: 0.6s ease-out;
+}
+
+.headerRight:hover .credit {
+  transform: rotateZ(360deg);
+}
+
+.headerRightText {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s;
+  display: block;
+}
+
+.headerRightText::after {
+  content: attr(data-after);
+  display: inline-block;
+  transform: translateX(100%);
+  position: absolute;
+  left: 60px;
+  transition: inherit;
+}
+
+.headerRightText:hover > span {
+  transform: translate(-57%);
+}
+
+.headerRightText > span {
+  display: inline-block;
+  transform: translateX(0%);
+  transition: inherit;
+}
+
+.headerRightText:hover::after {
+  transform: translateX(-2%);
+}
+
+.headerLeft {
+  display: flex;
+  /* padding: 0px 40px; */
+}
+
+.headerLeft > ul {
+  list-style-type: none;
+}
+.headerLeft > ul > a > li {
+  display: inline;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.headerLeft > ul > a > li:hover {
+  color: #ff6e31;
+}
+.icons {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.linkTwitter > svg.MuiSvgIcon-root:hover {
+  color: #1c98e5;
+}
+
+.linkLinkedIn > svg.MuiSvgIcon-root:hover {
+  color: #0077b5;
+}
+.linkGithub > svg.MuiSvgIcon-root:hover {
+  color: #333333;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 30px 10px;
+  }
+  .headerLeft > ul > a > li {
+    display: none;
+  }
+}

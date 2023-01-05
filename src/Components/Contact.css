@@ -1,0 +1,39 @@
+.contact {
+  display: flex;
+  padding: 40px 70px;
+  height: 180px;
+  background-color: #fffbac;
+  flex-direction: column;
+}
+.contact > h1 {
+  font-size: 4rem;
+}
+
+.contact > h6 {
+  font-size: 1.1rem;
+  font-family: "monteserat";
+}
+
+.contact > h6 > span {
+  color: #ff6e31;
+}
+
+.footer {
+  background-color: #fffbac;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+
+.footer > p > span {
+  color: #ff6e31;
+  font-weight: 700;
+  font-family: "monteserat";
+}
+
+@media screen and (max-width: 600px) {
+  .contact > h1 {
+    font-size: 2.2rem;
+  }
+}
