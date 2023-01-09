@@ -92,7 +92,11 @@ a {
   color: #0077b5;
 }
 .linkGithub > svg.MuiSvgIcon-root:hover {
-  color: #333333;
+  color: #909090;
+}
+
+.linkResume > svg.MuiSvgIcon-root:hover {
+  color: #404258;
 }
 
 @media screen and (max-width: 600px) {

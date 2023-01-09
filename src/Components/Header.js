@@ -3,6 +3,8 @@ import "./Header.css";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
+import resume from "../images/resume.pdf";
 
 function Header() {
   return (
@@ -56,6 +58,14 @@ function Header() {
           rel="noreferrer"
         >
           <TwitterIcon fontSize={"medium"} className="icons" />
+        </a>
+        <a
+          className="linkResume"
+          href={resume}
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <MenuBookIcon fontSize={"medium"} className="icons" />
         </a>
       </div>
     </div>
