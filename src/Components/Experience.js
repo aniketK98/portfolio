@@ -8,7 +8,7 @@ function Experience() {
   return (
     <div className="experience" id="experience">
       <div className="experienceRight">
-        <img src={developer} alt="coding"/>
+        <img src={developer} alt="coding" />
 
         <h1>A short summary</h1>
         <h4>2+ years of Experience in TCS</h4>
@@ -17,7 +17,7 @@ function Experience() {
         <div className="experienceTCS">
           <div className="logoTitle">
             <div className="logo">
-              <img src={tcs}  alt="tcslogo"/>
+              <img src={tcs} alt="tcslogo" />
             </div>
             <div>
               <h1 className="title">System Engineer</h1>
@@ -31,6 +31,13 @@ function Experience() {
                 Actively worked in an agile software development environment
                 which utilized the Scrum process.
               </li>
+              <li>
+                Developed multiple project modules from its initial version.
+              </li>
+              <li>
+                Served as a part of a team which was responsible for building
+                multiple dashboards in ReactJS.
+              </li>
               <li>Worked on weekly point release in horizon team. </li>
               <li>
                 Developed a Utility to get information of all the attributes of
@@ -40,7 +47,7 @@ function Experience() {
             </ul>
             <div className="teckStack">
               <CodeIcon fontSize="medium" />
-              <p>KDB/Q • Unix • Python</p>
+              <p>ReactJS • KDB/Q • Unix • Python</p>
             </div>
           </div>
         </div>
